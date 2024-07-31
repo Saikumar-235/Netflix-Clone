@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-shadow: 0cap;
+}
+body{
+   
+  margin: 0;
+  padding: 0;
+  background: url(
+"https://media.geeksforgeeks.org/wp-content/uploads/20240313102506/NetlfixHome-min.jpeg")
+    no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.netflix{
+    color: red;
+    font-size: 40px;
+    padding-left: 40px;
+    margin-top: 20px;
+  
+}
+
+
+.img-netflixIcon {
+  height: 90px;
+  margin-left: 30px;
+}
+
+.signin{ 
+  /* margin-top: 0px; */
+  width: 100%;
+  margin-left: 1130px;
+  padding: 13px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: none;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.heading{
+  font-size: 30px;
+  font-style: bold;
+  color: whitesmoke;
+  margin-top:65px;
+  margin-left: 180px;
+
+}
+.watchany{
+  color: whitesmoke;
+  margin-top: 20px;
+  margin-left: 500px;
+  
+}
+.readyto{
+  margin-left: -100px;
+}
+.startinp{
+  width: 30%;
+  margin-top: 30px;
+  height: 45px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  margin-left: 400px;
+  background-color: rgba(0, 0, 0, 0.7);;
+  outline: transparent;
+  text-indent: 18px;
+
+}
+
+.signpage{
+  background-color: rgba(0, 0, 0, 0.7);
+  height:480px;
+  width: 30%;
+  gap: 20px;
+   /* margin-top: -10px ; */
+   padding-left:80px ;
+
+ 
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+section h2{
+color: whitesmoke;
+margin-top: 60px;
+}
+.userInput input {
+  width: 80%;
+  margin-top: 30px;
+  height: 45px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+
+  outline: transparent;
+  text-indent: 18px;
+}
+.OR{
+  margin-top: 10px;
+  margin-left: 140px;
+  color: #999;
+}
+.getstar{
+  padding: 13px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1.05rem;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btn-login {
+  margin-top: 20px;
+  width: 80%;
+  padding: 13px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.forgotpass{
+  color: whitesmoke;
+  margin-left: 88px;
+  
+}
+
+.userInput input::-webkit-input-placeholder {
+  font-size: 1rem;
+  color: #999;
+}
+.startinp ::-webkit-input-placeholder {
+  font-size: 1rem;
+  color: #999;
+}
+.startinp::-moz-placeholder {
+  font-size: 1rem;
+  color: #999;
+  text-indent: 40px;
+}
+.form-errors{
+  color: red;
+  margin-left: 410px;
+}
+.form-error{
+  color: red;
+  margin-top: 5px;
+  /* margin-left: 410px; */
+}
+
+.userInput input::-moz-placeholder {
+  font-size: 1rem;
+  color: #999;
+  text-indent: 40px;
+}
+
+
+.remMe {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.cText {
+  color: #b3b3b3;
+}
+
+.cLink {
+  color: #737373;
+}
+
+.sLink {
+  color: white;
+  text-decoration: none;
+}
+
+.sLink:hover {
+  text-decoration: underline;
+}
+
+.fb {
+  color: #3b5998;
+  margin-right: 6px;
+  font-size: 20px;
+}
+
+
+.login2 {
+  margin: 50px 0 15px 0;
+  vertical-align: middle;
+  color: #8c8c8c;
+}
+
+.signUp {
+  margin-bottom: 10px;
+  color: #8c8c8c;
+  margin-top: 10px;
+}
+
+.google {
+  font-size: 0.8rem;
+  color: #8c8c8c;
+}
+
+.google a {
+  text-decoration: none;
+}
+
+.google a:hover {
+  text-decoration: underline;
+}
+
+.tel-link {
+  text-decoration: none;
+  color: #757575;
+}
+
+.tel-link:hover {
+  text-decoration: underline;
+}
+
+.select-language {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-size: 12px;
+  /* background-position-x: calc(100% - 7px);
+  background-position-y: calc(100% - 14px); */
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: #757575;
+  margin-left: 200px;
+  padding: 14px 20px 14px 14px;
+  margin: 30px 0 40px 0;
+  font-size: 0.9rem;
+  /* min-height: 40px; */
+  border: 1px solid #333;
+}
+
+.select-language option {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 740px) {
+  body {
+      background: black;
+  }
+
+  .img-netflixIcon {
+      margin-left: 22px;
+  }
+
+  .login-card {
+      padding: 0 10px 0 10px;
+      width: 100%;
+  }
+
+  .parent-login {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .footer {
+      border-top: 1px solid #737373;
+  }
+
+  .topSide {
+      padding-bottom: 93px;
+  }
+
+  .footList {
+      width: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footList {
+      width: 50%;
+  }
+}
